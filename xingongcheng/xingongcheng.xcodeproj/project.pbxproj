@@ -14,6 +14,7 @@
 		C289A70D1B0EBCAD00F8DDCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C289A70C1B0EBCAD00F8DDCA /* Images.xcassets */; };
 		C289A7101B0EBCAD00F8DDCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C289A70E1B0EBCAD00F8DDCA /* LaunchScreen.xib */; };
 		C289A71C1B0EBCAD00F8DDCA /* xingongchengTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C289A71B1B0EBCAD00F8DDCA /* xingongchengTests.m */; };
+		C289A7271B0EBF3D00F8DDCA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C289A7261B0EBF3D00F8DDCA /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C289A7151B0EBCAD00F8DDCA /* xingongchengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xingongchengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C289A71A1B0EBCAD00F8DDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C289A71B1B0EBCAD00F8DDCA /* xingongchengTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xingongchengTests.m; sourceTree = "<group>"; };
+		C289A7251B0EBF3D00F8DDCA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C289A7261B0EBF3D00F8DDCA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				C289A7031B0EBCAD00F8DDCA /* AppDelegate.h */,
 				C289A7041B0EBCAD00F8DDCA /* AppDelegate.m */,
 				C289A7061B0EBCAD00F8DDCA /* ViewController.h */,
+				C289A7251B0EBF3D00F8DDCA /* RootViewController.h */,
+				C289A7261B0EBF3D00F8DDCA /* RootViewController.m */,
 				C289A7071B0EBCAD00F8DDCA /* ViewController.m */,
 				C289A7091B0EBCAD00F8DDCA /* Main.storyboard */,
 				C289A70C1B0EBCAD00F8DDCA /* Images.xcassets */,
@@ -221,6 +226,7 @@
 			files = (
 				C289A7081B0EBCAD00F8DDCA /* ViewController.m in Sources */,
 				C289A7051B0EBCAD00F8DDCA /* AppDelegate.m in Sources */,
+				C289A7271B0EBF3D00F8DDCA /* RootViewController.m in Sources */,
 				C289A7021B0EBCAD00F8DDCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				C289A7211B0EBCAD00F8DDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C289A7221B0EBCAD00F8DDCA /* Build configuration list for PBXNativeTarget "xingongchengTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				C289A7241B0EBCAD00F8DDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
